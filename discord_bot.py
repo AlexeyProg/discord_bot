@@ -18,7 +18,8 @@ async def on_ready():
 
 @bot.command(aliases = ['helpme'])
 async def help_command(ctx):
-    await ctx.send('/show winrate - get list of heroes winrate\n/show damage - most damage hero this month')
+    await ctx.send('/show winrate - get list of heroes winrate\n/show damage - most damage hero this month'
+                    '/sborka \'hero\' - get list of most used items on hero')
 
 
 @bot.command(aliases = ['sborka'])
